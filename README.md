@@ -1,7 +1,7 @@
 # RSA Factoring Challenge
 ## Resources
 **Read or watch:**
-* [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem%29)
+* [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem%29))
 * [How does HTTPS provide security?](https://stackoverflow.com/questions/3968095/how-does-https-provide-security)
 * [Prime Factorization](https://privacycanada.net/mathematics/prime-factorization/)
 * [Why RSA?](https://jaredatandi.hashnode.dev/rsa-factoring)
@@ -11,7 +11,7 @@
 * OS needs to be Standard Ubuntu 20.04 LTS/
 
 ## Tasks
-### 0. Factorize all the things!					`#advanced`
+### 0. Factorize all the things!	`#advanced`
 Factorize as many numbers as possible into a product of two smaller numbers.
 
 * Usage: `factors <file>`
@@ -67,9 +67,10 @@ sys 0m0.001s
 julien@ubuntu:~/factors$ 
 ```
 **Repo:**
+
 	*  GitHub repository: `RSA-Factoring-Challenge`
 	* File: `factors`
-### 1. RSA Factoring Challenge						`#advanced`
+### 1. RSA Factoring Challenge 		`#advanced`
 RSA Laboratories states that: for each RSA number `n`, there exist prime numbers `p` and `q` such that
 
 `n` = `p` × `q`. The problem is to find these two primes, given only `n`.
