@@ -68,7 +68,7 @@ julien@ubuntu:~/factors$
 ```
 **Repo:**
 
-	*  GitHub repository: `RSA-Factoring-Challenge`
+	* GitHub repository: `RSA-Factoring-Challenge`
 	* File: `factors`
 ### 1. RSA Factoring Challenge 		`#advanced`
 RSA Laboratories states that: for each RSA number `n`, there exist prime numbers `p` and `q` such that
