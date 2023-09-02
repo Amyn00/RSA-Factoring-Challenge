@@ -9,14 +9,19 @@ def factorize(n):
     for i in range(2, isqrt(n) + 1):
         if n % i == 0:
             return f"{n}={i}*{n//i}"
-    return f"{n} is prime"
+    return f"{n}={n}*1"
 
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: factors <file>")
         sys.exit(1)
+
+
     with open(sys.argv[1]) as f:
         for line in f:
-            n = int(line.strip())
-            print(factorize(n))
+            line = line.strip()
+            if line and line.isdigit():
+                n = int(line)
+                if n > 1:
+                    print(factorize(n))
